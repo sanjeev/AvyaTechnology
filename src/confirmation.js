@@ -12,7 +12,7 @@ class confirmation extends Component {
     return (
       <>
       {user.lat ? <div>lat : {user.lat}</div> : ''}
-      {user.lng ? <div>lat : {user.lng}</div> : ''}
+      {user.lng ? <div>lng : {user.lng}</div> : ''}
       
 
       {user.routes ? <div>routes : {user.routes}</div> :''}
